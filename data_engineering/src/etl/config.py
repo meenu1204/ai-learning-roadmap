@@ -1,0 +1,5 @@
+RAW_DATA_PATH = "data/raw/sales.csv"
+DB_PATH =  "data/processed/cleaned_sales.db"
+TABLE1_CLEANED = "cleaned_sales"
+TABLE2_KPI = "sales_kpis"
+OUTPUT_PLOT_PATH = "output_png/total_sales.png"
