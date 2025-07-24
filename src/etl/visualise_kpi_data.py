@@ -1,9 +1,13 @@
 # visualise_kpi_data.py
 
+import matplotlib
+matplotlib.use("Agg")  # Use non-interactive backend
+import matplotlib.pyplot as plt
+
+
 import sqlite3
 from pathlib import Path
 import pandas as pd
-import matplotlib.pyplot as plt
 from src.main.logger_config import setup_logger
 from src.etl.config import OUTPUT_PLOT
 
